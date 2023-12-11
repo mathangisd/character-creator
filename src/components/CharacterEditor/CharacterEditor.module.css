@@ -1,14 +1,10 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
-  background: linear-gradient(180deg, hsl(180deg, 25%, 92%)  80%,  hsl(195deg, 20%, 86%) 40%);
-  background-attachment: fixed;
-  position: relative;
-  z-index:1;
 }
 
 .maxWidthWrapper {
- 
+  position: relative;
 }
 
 
@@ -40,4 +36,13 @@
 
 .controlColumn {
   width: 50%;
+}
+
+.perspectiveEffect {
+  position: fixed;
+  top: 60%;
+  height: 40%;
+  width: 100%;
+  left: 0;
+  background-color:  hsl(195deg, 20%, 86%);
 }
